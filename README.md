@@ -13,7 +13,7 @@ This prototype is still very basic as I'm learning the engine.
 This project's purpose is purely educational, and no assets or version of this project can or will be commercialized.
 
 
-# Portal Prototype (PTBR)
+# FE Tactics (PTBR)
 
 Protótipo básico em Unity replicando o sistema de batalha de Fire Emblem
 
