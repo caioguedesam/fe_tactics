@@ -2,6 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// GridSnap:
+/// This script implements the grid system and snaps the cursor game object to it. As simple as that.
+///
+/// Caio Guedes, 10/2019.
+
 public class GridSnap : MonoBehaviour
 {
     // Size of grid to snap
@@ -18,6 +23,7 @@ public class GridSnap : MonoBehaviour
         return roundThreshold * Mathf.Round(inputRelativeToThreshold);
     }
 
+    // This updates the cursor position if the mouse is on a value over the threshold
     private void ChangeCursorPosition(float x, float y)
     {
         Vector2 cursorPosition = new Vector2(Round(x, snapValue), Round(y, snapValue));
